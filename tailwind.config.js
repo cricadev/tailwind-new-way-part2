@@ -12,8 +12,16 @@ module.exports = {
     debugScreens: {
     position: ['top', 'left'],
     },
-   
-      
+    container: {
+      center: true,
+      padding: {
+      DEFAULT: '0.5rem',
+      sm: '1rem',
+      lg: '1.5rem',
+      xl: '2rem',
+      '2xl' : '4rem',
+      },
+      },      
     extend: {
 
     },
